@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+  .navbar {
+    background-color: #BB2D3B  !important;
+    font-family: 'Roboto', sans-serif;
+
+    .navbar-brand {
+      img {
+        width: 100px;
+      }
+    }
+
+    ul{
+      background-color: #fff;
+      border-radius: 5px;
+      a{
+        color: red !important;
+      }
+      i{
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.carousel {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #carouselExampleControls {
+    width: 90%;
+  }
+}
+
+.productos {
+  margin-top: 50px;
+  text-align: center;
+  h2 {
+    background-color: #BB2D3B;
+    height: 40px;
+    color: #fff;
+ 
+  }
+
+  .produ-items {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+footer{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  background-color: #BB2D3B;
+  color: #fff;
+
+  .justify{
+    display: flex;
+    justify-content: space-around;
+    .datafiscal{
+      img{
+        width: 80px;
+      }
+    }
+  }
+
+  .redes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    i{font-size: 20px;}
+  }
+}
+
+//Hombres
+
+.hombres{
+  margin-top: 50px;
+h2{
+  text-align: center;
+  background-color: #BB2D3B;
+  height: 40px;
+  color: #fff;
+}
+}
+
+.helper{
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  .helper_item{
+    padding-top: 50px;
+  }
+}
